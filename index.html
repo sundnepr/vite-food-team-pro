@@ -22,7 +22,7 @@
     />
     
     <script type="module" crossorigin src="/vite-food-team-pro/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vite-food-team-pro/assets/index-bdfd2ae9.css">
+    <link rel="stylesheet" href="/vite-food-team-pro/assets/index-bbf09eff.css">
   </head>
   <body>
     
@@ -74,7 +74,47 @@
       
     </main>
     
-    
+    <div class="backdrop" data-modal>
+  <div class="modal">
+    <button class="modal-close-btn" type="button" data-modal-close>
+      <svg width="11" height="11">
+        <use href="/vite-food-team-pro/assets/icons-fcf2b8d6.svg#close"></use>
+      </svg>
+    </button>
+    <p class="modal-title">Order Form</p>
+    <form action="">
+      <div class="modal-input-wrap">
+        <lable for="user-name" class="lable-form">Name</lable>
+        <input
+          id="user-name"
+          type="text"
+          class="input-form"
+          placeholder="Your name"
+        />
+      </div>
+      <div class="modal-input-wrap">
+        <lable for="user-tel" class="lable-form">Phone number</lable>
+        <input
+          id="user-tel"
+          type="tel"
+          class="input-form"
+          placeholder="+38(0_ _) _ _ _   _ _   _ _"
+        />
+      </div>
+      <div class="modal-input-wraper">
+        <lable for="user-email" class="lable-form">E-mail</lable>
+        <input
+          id="user-email"
+          type="email"
+          class="input-form"
+          placeholder="example@gmail.com"
+        />
+      </div>
+      <button type="submit" class="modal-btn">Send</button>
+    </form>
+  </div>
+</div>
+
     
   </body>
 </html>
